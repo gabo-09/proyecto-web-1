@@ -1,0 +1,183 @@
+body{
+	background-color: #eff1f2;
+	margin: 0px;
+}
+header{
+	display: block;
+	background-color: #00346a;
+	font-family: "Glitch Inside";
+	text-align: center;
+	font-size: 60px;
+	color:#FFF;
+	line-height: 100px;
+	height: 15%;
+	width: 100%;
+	position: fixed;
+}
+nav{
+	display: block;
+	background-color: #737a7c;
+	height: 10%;
+	width: 100%;
+	position: fixed;
+	top: 15%;
+}
+section{
+	width:92%;
+	height: 65%;
+	position: fixed;
+    top: 25%;
+	background-color: #61475d;
+	float: left;
+    overflow: scroll;
+}
+aside{
+	position: fixed;
+	left: 92%;
+	top: 25%;
+	width: 8%;
+	height: 65%;
+	float: left;
+	background-color: #e4177b;
+	padding-top: 3%;
+	padding-left: 1.5%;
+}
+footer{
+	position: fixed;
+	top: 90%;
+	width: 100%;
+	height: 10%;
+	float: left;
+	background-color: #7bdbe5;
+	font-family: "Roboto";
+	text-align: center;
+	font-size: 10px;
+	color:#FFF;
+}
+.principales{
+	padding-left:10%;
+	width: 80%;
+	min-height: 350px;
+	max-height: auto;
+}
+/*FORMATO A TITULOS*/
+h1, h2, h3{
+	text-align:center;
+	font-family:"Cheap Fire"; 
+}
+h1{
+	color: #20aad8;
+	font-size:60px;
+}
+h2{
+	color: red;
+	font-size:35px;
+}
+h3{
+	color:#54e1df;
+	font-size:25px;
+}
+/*MENU DESPLEGABLE*/
+ul {
+    list-style: none;
+	margin: 0;
+    padding: 0;
+	padding-right:27%;
+	/*overflow: hidden;*/
+	text-align: center;
+}
+li{
+	float: right;
+	width: 15%;
+    height: 24px;
+	margin: 10px;
+	padding: 8px 0px;
+}
+#menuP {
+	text-decoration: none;
+	font-family: "Roboto";
+	font-size: 20px;
+	color:#FFF;
+}
+#menuP li>a{
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+#menuP li>a:hover {
+	background-color: white;
+	color: #D7C8B6;
+}
+#menuP>li>ul{
+  display: none;
+}
+#menuP>li:hover>ul {
+  display:block;
+}
+/*REDES SOCIALES*/
+#face{
+	background-image: url('facebook-1.png');
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+}
+#face:hover{
+	background: url('facebook-2.png');
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+}
+
+#pint{
+	background-image: url('pinterest-1.png');
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+}
+#pint:hover{
+	background: url('pinterest-2.png');
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+}
+
+#inst{
+	background-image: url('insta-1.png');
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+}
+#inst:hover{
+	background: url('insta-2.png');
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+}
+
+#cora{
+	background-image: url('cora-1.png');
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+}
+#cora:hover{
+	background: url('cora-2.png');
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+}
+
+#twit{
+	background-image: url('twitter-1.png');
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+}
+#twit:hover{
+	background: url('twitter-2.png');
+	background-size: 60px 60px;
+	width: 60px;
+	height: 60px;
+}
